@@ -1,0 +1,215 @@
+@import "tailwindcss";
+
+
+body{
+    background:#070b10;
+    color:white;
+    font-family:Inter, sans-serif;
+}
+
+.preset{
+
+background:#111827;
+border:1px solid #273244;
+padding:6px 15px;
+border-radius:6px;
+font-size:13px;
+
+}
+
+.preset:hover{
+
+border-color:#f97316;
+
+}
+
+.input{
+
+background:#151b25;
+border:1px solid #273244;
+padding:8px;
+border-radius:5px;
+width:100%;
+font-size:13px;
+
+}
+
+
+.add{
+  background:#0f172a;
+
+  border:1px solid #0ea5e9;
+
+  color:#7dd3fc;
+
+  padding:8px 14px;
+
+  border-radius:5px;
+
+  font-size:12px;
+  font-weight:600;
+
+  transition:all .2s ease;
+
+  flex-shrink:0;
+}
+
+.add:hover{
+  background:#152235;
+
+  box-shadow:
+    0 0 8px rgba(14,165,233,.25);
+
+  color:#bae6fd;
+}
+
+.cyber-btn{
+  background:#0f172a;
+  border:1px solid #06b6d4;
+  color:#67e8f9;
+
+  padding:8px 14px;
+  border-radius:6px;
+
+  font-size:12px;
+  font-weight:600;
+
+  transition:all .25s ease;
+  cursor:pointer;
+
+  box-shadow:
+    0 0 5px rgba(6,182,212,.25),
+    inset 0 0 5px rgba(6,182,212,.15);
+}
+
+.cyber-btn:hover{
+  background:rgba(6,182,212,.08);
+
+  box-shadow:
+    0 0 10px rgba(6,182,212,.5),
+    0 0 20px rgba(6,182,212,.3);
+
+  transform:translateY(-1px);
+}
+
+.detect-btn{
+  width:100%;
+
+  background:#0f172a;
+  border:1px solid #0ea5e9;
+
+  color:#7dd3fc;
+
+  padding:8px 12px;
+
+  border-radius:5px;
+
+  font-size:12px;
+  font-weight:600;
+
+  transition:all .2s ease;
+
+  box-shadow:
+    inset 0 0 8px rgba(14,165,233,.08);
+}
+
+.detect-btn:hover{
+  background:#152235;
+
+  box-shadow:
+    0 0 8px rgba(14,165,233,.25);
+
+  color:#bae6fd;
+}
+
+.sidebar{
+  background:#0b1017;
+  border:1px solid #1e3a5f;
+
+  box-shadow:
+    0 0 12px rgba(14,165,233,.08);
+}
+
+select{
+  background:#151b25;
+  color:white;
+}
+
+option{
+  background:#151b25;
+  color:white;
+}
+
+.request-edge {
+  animation: dashMove 1s linear infinite;
+}
+
+/* ===============================
+   React Flow Theme
+==================================*/
+
+.react-flow {
+  background: #0b1017;
+}
+
+/* Controls */
+
+.react-flow__controls {
+  background: #141b24;
+  border: 1px solid #2a3745;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.react-flow__controls button {
+  background: transparent;
+  color: #9ddcff;
+  border-bottom: 1px solid #222;
+}
+
+.react-flow__controls button:hover {
+  background: #1d2734;
+}
+
+/* Background */
+
+.react-flow__background {
+  opacity: .55;
+}
+
+/* Nodes */
+
+.react-flow__node {
+  transition: all .25s ease;
+}
+
+.react-flow__node:hover {
+  transform: scale(1.05);
+}
+
+/* Remove selection border */
+
+.react-flow__node.selected,
+.react-flow__node:focus,
+.react-flow__node:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Edge animation */
+
+.react-flow__edge-path {
+  transition: stroke .3s;
+}
+
+/* Selection */
+
+.react-flow__edge.selected .react-flow__edge-path {
+  filter: drop-shadow(0 0 8px cyan);
+}
+
+/* Hide attribution */
+
+.react-flow__attribution {
+  display: none;
+}
