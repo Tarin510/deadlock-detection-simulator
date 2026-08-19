@@ -12,23 +12,23 @@ An interactive web application that demonstrates Operating System deadlock conce
 - Responsive Modern UI
 
 ## 📸 Application Preview
-![Simulator](images/localhost_5173_ (2).png).
+![Simulator](backend/images/images/simulator.png).
 ### Resource Allocation Graph
 
-![Simulator](backend/images/localhost_5173_(4).png)
+![Simulator](backend/images/images/graph.png)
 
 ### Deadlock Detection
 
-![Deadlock](backend/images/localhost_5173_(5).png)
+![Deadlock](backend/images/images/deadlock.png)
 
 ### Banker's Algorithm
 
-![Banker](backend/images/localhost_5173_(6).png)
-![Banker](backend/images/localhost_5173_(7).png)
+![Banker's Algorithm](backend/images/images/bankers.png)
+![Banker](backend/images/images/qwe.png)
 
 ### Operating System Theory
 
-![Theory](backend/images/localhost_5173_(8).png)
+![Theory](backend/images/images/theory.png)
 
 ## 🛠️ Tech Stack
 
