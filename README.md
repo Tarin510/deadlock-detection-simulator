@@ -15,20 +15,20 @@ An interactive web application that demonstrates Operating System deadlock conce
 ![Simulator](images/localhost_5173_(2).png).
 ### Resource Allocation Graph
 
-![Simulator](images/localhost_5173_(4).png)
+![Simulator](backend/images/localhost_5173_(4).png)
 
 ### Deadlock Detection
 
-![Deadlock](images/localhost_5173_(5).png)
+![Deadlock](backend/images/localhost_5173_(5).png)
 
 ### Banker's Algorithm
 
-![Banker](images/localhost_5173_(6).png)
-![Banker](images/localhost_5173_(7).png)
+![Banker](backend/images/localhost_5173_(6).png)
+![Banker](backend/images/localhost_5173_(7).png)
 
 ### Operating System Theory
 
-![Theory](images/localhost_5173_(8).png)
+![Theory](backend/images/localhost_5173_(8).png)
 
 ## 🛠️ Tech Stack
 
