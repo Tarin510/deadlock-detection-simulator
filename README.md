@@ -12,7 +12,7 @@ An interactive web application that demonstrates Operating System deadlock conce
 - Responsive Modern UI
 
 ## 📸 Application Preview
-![Simulator](backend/images/images/simulator.png).
+![Simulator](backend/images/images/simulator.png)
 ### Resource Allocation Graph
 
 ![Simulator](backend/images/images/graph.png)
